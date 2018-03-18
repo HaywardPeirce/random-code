@@ -186,7 +186,7 @@ def main():
     fizzbuzz = selectMethod(method, countLimit)
     
     for line in fizzbuzz:
-        print line
+        print(line)
 
 if __name__ == '__main__':
     main()

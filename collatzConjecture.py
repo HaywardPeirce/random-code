@@ -31,7 +31,7 @@ def main():
     numberList = calculateCollatz(limit)
     
     for item in numberList:
-        print 'For the number ' + str(item[0]) + ' it took ' + str(item[1]) + ' steps'
+        print('For the number ' + str(item[0]) + ' it took ' + str(item[1]) + ' steps')
 
 if __name__ == '__main__':
     main()
